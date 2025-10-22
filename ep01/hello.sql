@@ -1,5 +1,4 @@
 /*Objetivo: Estamos usando um banco de dados criado, com o objetivo que aprender a fazer consultas e manupulações com dados. O curso é mais voltado a isso!
-
 Porque estudar sql? Sql, ou Linguagem de Consulta Estruturada, serve para fazer consultas em banco de dados. 
 Onde fazemos as consultas? Nos SGBDs, que gerenciam os bancos de dados e é onde o banco de dados é criado e armazenado os valores atravéz dos sistemas.
 
@@ -14,7 +13,8 @@ tb_products: informações sobre os produtos
 tb_order_payments: informações sobre o tipo de pagamento
 
 
-As consultas são feitas com Operações:
+As consultas são feitas com Operações:*/
+
 
 -- Selecionar tudo de uma tabela
 SELECT *
@@ -38,7 +38,7 @@ SELECT product_id, product_category_name, product_photos_qty
 FROM tb_products
 WHERE (product_category_name = 'bebes' 
     OR product_category_name = 'perfumaria') 
-AND product_photos_qty > 1*/
+AND product_photos_qty > 1
 
 -- bebes acima de 1 foto ou perfumaria acima de 5 fotos
 SELECT product_id, product_category_name, product_photos_qty
